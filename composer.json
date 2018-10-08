@@ -1,0 +1,23 @@
+{
+  "name": "zhieq/laravel-case-json-middleware",
+  "description": "zhieq group case json middleware",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "zhieq",
+      "email": "developer@zhieq.com"
+    }
+  ],
+  "require": {
+    "laravel/framework": "5.*",
+    "zhieq/laravel-supports": "^1.0",
+    "zhieq/laravel-contracts": "^1.0",
+    "guzzlehttp/guzzle": "^6.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "ZhiEq\\CaseJson\\": "src"
+    }
+  }
+}

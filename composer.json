@@ -13,7 +13,8 @@
     "laravel/framework": "5.*",
     "zhieq/laravel-supports": "^1.0",
     "zhieq/laravel-contracts": "^1.0",
-    "guzzlehttp/guzzle": "^6.3"
+    "guzzlehttp/guzzle": "^6.3",
+    "ext-json": "*"
   },
   "autoload": {
     "psr-4": {

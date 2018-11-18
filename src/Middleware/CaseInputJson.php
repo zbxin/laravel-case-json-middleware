@@ -17,8 +17,8 @@ class CaseInputJson extends MiddlewareExceptRoute
      */
     public function subHandle($request, Closure $next)
     {
-        if (!empty($request->getContent())) {
-            $request->replace(ConvertJsonKeyFormat::convertJsonKeyFormat($request->getContent(), config('tools.case_input_format'), true));
+        if (!empty($request->input())) {
+            $request->replace(ConvertJsonKeyFormat::convertJsonKeyFormat(json_encode($request->input()), config('tools.case_input_format'), true));
         }
         return $next($request);
     }

@@ -17,8 +17,8 @@ class CamelCaseInputJson extends MiddlewareExceptRoute
      */
     public function subHandle($request, Closure $next)
     {
-        if (!empty($request->getContent())) {
-            $request->replace(ConvertJsonKeyFormat::convertJsonKeyFormat($request->getContent(), ConvertJsonKeyFormat::FORMAT_CAMEL_CASE, true));
+        if (!empty($request->input())) {
+            $request->replace(ConvertJsonKeyFormat::convertJsonKeyFormat(json_encode($request->input()), ConvertJsonKeyFormat::FORMAT_CAMEL_CASE, true));
         }
         return $next($request);
     }

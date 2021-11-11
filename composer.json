@@ -1,24 +1,24 @@
 {
-  "name": "zhieq/laravel-case-json-middleware",
-  "description": "zhieq group case json middleware",
+  "name": "zbxin/laravel-case-json-middleware",
+  "description": "case json middleware",
   "type": "library",
   "license": "MIT",
   "authors": [
     {
-      "name": "zhieq",
-      "email": "developer@zhieq.com"
+      "name": "zbxin",
+      "email": "developer@zbxin.com"
     }
   ],
   "require": {
     "laravel/framework": "*",
-    "zhieq/laravel-supports": "^1.0",
-    "zhieq/laravel-contracts": "^1.0",
-    "guzzlehttp/guzzle": "^6.3",
+    "zbxin/laravel-supports": "^1.0",
+    "zbxin/laravel-contracts": "^1.0",
+    "guzzlehttp/guzzle": "^7.0",
     "ext-json": "*"
   },
   "autoload": {
     "psr-4": {
-      "ZhiEq\\CaseJson\\": "src"
+      "zbxin\\CaseJson\\": "src"
     }
   }
 }

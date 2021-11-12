@@ -1,8 +1,8 @@
 <?php
 
-namespace ZhiEq\CaseJson\Exceptions;
+namespace Zbxin\CaseJson\Exceptions;
 
-use ZhiEq\Contracts\Exception;
+use Zbxin\Contracts\Exception;
 
 class JsonKeyFormatInvalidException extends Exception
 {

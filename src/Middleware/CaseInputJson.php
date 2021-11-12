@@ -1,11 +1,11 @@
 <?php
 
-namespace ZhiEq\CaseJson\Middleware;
+namespace Zbxin\CaseJson\Middleware;
 
 use Closure;
 use Illuminate\Http\Request;
-use ZhiEq\CaseJson\ConvertJsonKeyFormat;
-use ZhiEq\Contracts\MiddlewareExceptRoute;
+use Zbxin\CaseJson\ConvertJsonKeyFormat;
+use Zbxin\Contracts\MiddlewareExceptRoute;
 
 class CaseInputJson extends MiddlewareExceptRoute
 {

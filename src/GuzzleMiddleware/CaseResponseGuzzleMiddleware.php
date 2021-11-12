@@ -1,11 +1,11 @@
 <?php
 
-namespace ZhiEq\CaseJson\GuzzleMiddleware;
+namespace Zbxin\CaseJson\GuzzleMiddleware;
 
 use GuzzleHttp\Promise\Promise;
 use Psr\Http\Message\RequestInterface;
 use Psr\Http\Message\ResponseInterface;
-use ZhiEq\CaseJson\ConvertJsonKeyFormat;
+use Zbxin\CaseJson\ConvertJsonKeyFormat;
 
 class CaseResponseGuzzleMiddleware
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace ZhiEq\CaseJson;
+namespace Zbxin\CaseJson;
 
-use ZhiEq\CaseJson\Exceptions\JsonFormatInvalidException;
-use ZhiEq\CaseJson\Exceptions\JsonKeyFormatInvalidException;
+use Zbxin\CaseJson\Exceptions\JsonFormatInvalidException;
+use Zbxin\CaseJson\Exceptions\JsonKeyFormatInvalidException;
 
 class ConvertJsonKeyFormat
 {
